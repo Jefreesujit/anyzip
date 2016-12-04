@@ -1,0 +1,81 @@
+header {
+	padding-top: 10px;
+    background: #26a69a;
+    border-bottom: 4px solid #eaeaea;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
+}
+.generate-btn {
+    margin-top: 24px;
+}
+.pane-title {
+	margin-bottom: 10px;
+}
+.page-header {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 300;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+.page-container {
+	min-height: 100%;
+}
+.message-box {
+	text-align: center;
+	line-height: 3rem;
+}
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  z-index: 100;
+}
+.row {
+	margin-bottom: 10px;
+}
+.col {
+	float: left;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.left-pane, .right-pane {
+	margin: 5%;
+	float: left;
+	width: 40%;
+	box-sizing: border-box;
+}
+.center-pane {
+	margin: 5% 15%;
+}
+.dropdown-content {
+	max-height: 300px;
+}
+.collection .collection-item.avatar {
+	min-height: 60px;
+}
+.btn.upload-btn {
+	float: none;
+    padding: 0px 60px;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 20px;
+    white-space: nowrap;
+}
+.file-name-container {
+	margin-top: 1rem;
+}
+.status-section {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    min-height: 30px !important;
+}
