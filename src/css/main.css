@@ -11,6 +11,9 @@ header {
 .generate-btn {
     margin-top: 24px;
 }
+.generate-btn .btn {
+    padding: 0 1rem;
+}
 .pane-title {
 	margin-bottom: 10px;
 }
@@ -26,7 +29,8 @@ header {
 }
 .message-box {
 	text-align: center;
-	line-height: 3rem;
+	line-height: 2.5rem;
+  font-size: 1.25rem;
 }
 footer {
   position: absolute;
@@ -63,7 +67,7 @@ footer {
 }
 .btn.upload-btn {
 	float: none;
-    padding: 0px 60px;
+    padding: 0px 50px;
     height: 4.5rem;
     line-height: 4.5rem;
     font-size: 20px;
