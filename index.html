@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>AnyZip</title>
+    <meta name="description" content="AnyZip Converter" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="src/css/materialize.min.css">
+    <link rel="stylesheet" href="src/css/main.css" type="text/css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="row">
+        <div class="logo-icon">
+        </div>
+        <div class="page-header">
+          AnyZip Converter
+        </div>
+      </div>
+    </header>
+    <main id="body">
+      <div class="row">
+      <div class="page-container">
+        <div class="center-pane">
+          <div class="row center">
+            <div class="col s12">
+              <h5 class="light message-box">This free ZIP converter lets you easily compress your files to the ZIP format. </h5>
+            </div>
+          </div>
+          <div class="row center">
+            <div class="col s12 file-field input-field">
+              <div class="btn upload-btn">
+                <span>Upload Files</span>
+                <input type="file" multiple required id="file_input">
+              </div>
+            </div>
+          </div>
+          <div class="col s12 status-section" id="status_section">
+          </div>
+          <div class="col s12 file-name-container">
+            <div class="input-field col s7">
+              <input placeholder="File Name" id="file_name" type="text" class="validate">
+            </div>
+            <div class="generate-btn col s5 ">
+              <button onClick="uploadFile()" id="save_btn" class="waves-effect waves-light btn">Generate Zip</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        Developed by Jefree Sujit.
+      </div>
+    </footer>
+    <script type="text/javascript" src="src/js/filesaver.js"></script>
+    <script type="text/javascript" src="src/js/jszip.min.js"></script>
+    <script type="text/javascript" src="src/js/jszip-utils.min.js"></script>
+    <script type="text/javascript" src="src/js/main.js"></script>
+  </body>
+</html>
