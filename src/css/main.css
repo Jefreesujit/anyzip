@@ -29,7 +29,7 @@ header {
 }
 .message-box {
 	text-align: center;
-	line-height: 2.5rem;
+	line-height: 2rem;
   font-size: 1.25rem;
 }
 footer {
@@ -67,7 +67,7 @@ footer {
 }
 .btn.upload-btn {
 	float: none;
-    padding: 0px 50px;
+    padding: 0px 40px;
     height: 4.5rem;
     line-height: 4.5rem;
     font-size: 20px;
