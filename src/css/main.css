@@ -73,13 +73,10 @@ footer {
     font-size: 20px;
     white-space: nowrap;
 }
-.file-name-container {
-	margin-top: 1rem;
-}
 .status-section {
-    margin-top: 2rem;
+    margin-top: 1rem;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: lighter;
     min-height: 30px !important;
 }
