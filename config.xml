@@ -17,4 +17,7 @@
       Jefree Sujit E
   </author>
 
+  <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+  <preference name="AndroidExtraFilesystems" value="sdcard,cache" />
+
 </widget>
